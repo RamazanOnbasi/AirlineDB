@@ -1,0 +1,6 @@
+use AIRLINE;
+GO
+
+SELECT Costumer_id
+FROM FFC, SEAT_RESERVATION
+WHERE Mileage>500 AND FFC.Costumer_id = SEAT_RESERVATION.Costumer_id
